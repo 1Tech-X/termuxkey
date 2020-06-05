@@ -23,7 +23,7 @@ sleep(1)
 print(b+'\n[!] Making setup file..')
 sleep(1)
 
-key = "extra-keys = [['ESC','/','-','_','<','>','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
+key = "extra-keys = [['ESC','/','-','_','<'UP'>','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
 kontol = open('/data/data/com.termux/files/home/.termux/termux.properties','w')
 kontol.write(key)
 kontol.close()
